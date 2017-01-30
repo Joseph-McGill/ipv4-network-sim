@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Starts 12 xterm terinals, each with a different host
+xterm -hold -e ./a.out ./hosts/A.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/B.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/C.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/D.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/E.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/F.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/G.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/H.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/I.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/J.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/K.txt input_data.bin &
+xterm -hold -e ./a.out ./hosts/L.txt input_data.bin
