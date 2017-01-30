@@ -2,7 +2,8 @@
 
 This repository simulates a network in C using sockets. It is currently
 configured for the following 12 node network architecture:
-![Network architecture](http://i.imgur.com/hSUWrlX.png)
+
+![Network architecture](http://i.imgur.com/JwWiUPD.png)
 
 Each node in the architecture is configured by the corresponding .txt file in
 the [hosts](../master/hosts/) directory. Each host has a fake IP address, port number, number of
