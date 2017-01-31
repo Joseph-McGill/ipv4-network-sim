@@ -20,7 +20,7 @@ The frames can be viewed using the supplied [frame_reader.c](../master/frame_rea
 file which can be compiled and ran with
 
     gcc frame_reader.c
-    ./a.out input_data.bin
+    ./a.out ../data/input_data.bin
 
 ### Compiling the program
 The program utilizes threads for sending and receiving frames, and must be
@@ -35,4 +35,4 @@ node.
 
 Additionally, a single host can be ran with
 
-    ./a.out ./hosts/A.txt input_data.bin
+    ./a.out ./hosts/A.txt ../data/input_data.bin
